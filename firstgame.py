@@ -12,7 +12,7 @@ for i in range(5):
     enemies.append(pygame.Rect(x, y, 50, 50))
     
 screen = pygame.display.set_mode((WIDTH, HEIGTH))
-pygame.display.set_caption("потм будет название")
+pygame.display.set_caption("динозавр бегает от метиоритов")
 
 player = pygame.Rect(180, 450, 50, 50)
 

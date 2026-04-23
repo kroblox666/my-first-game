@@ -7,4 +7,3 @@ def move_bullets(bullets):
     for bullet in bullets:
         
         bullet.y -= 6
-    pygame.bullets.draw(green)
